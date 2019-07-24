@@ -24,12 +24,12 @@ body {
   height: 1.5em;
 }
 
-/*
 [type='checkbox'] {
   position: absolute;
   left: -100vw;
 }
-[type='checkbox'] + label {
+
+/*[type='checkbox'] + label {
   --s: 0;
   position: relative;
   border: solid 0.625rem #f0f0f0;
