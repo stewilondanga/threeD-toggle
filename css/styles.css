@@ -54,14 +54,15 @@ body {
   content: "";
 }
 
-/*[type='checkbox'] + label:before {
+[type='checkbox']+label:before {
   top: calc(50% + .875rem);
   transform-origin: 100% 0;
   transform: translate(calc(var(--s)*(100% + 1rem))) scale(0.8) skewx(-22.5deg);
   background: radial-gradient(at 50% 25%, rgba(160, 160, 160, 0.65), transparent 70%);
   filter: blur(3px);
 }
-[type='checkbox'] + label:after {
+
+/*[type='checkbox'] + label:after {
   top: .875rem;
   left: .75rem;
   transform: translate(calc(var(--s)*(100% + 1rem))) rotatey(-22.5deg) rotate(-22.5deg) rotatex(-90deg) translatey(-50%) rotate(45deg);
