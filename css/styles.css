@@ -71,11 +71,11 @@ body {
   filter: Grayscale(calc(1 - var(--s)));
 }
 
-/*[type='checkbox']:checked + label {
-  --s: 1 ;
+[type='checkbox']:checked+label {
+  --s: 1;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
