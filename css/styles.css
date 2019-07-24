@@ -29,7 +29,7 @@ body {
   left: -100vw;
 }
 
-/*[type='checkbox'] + label {
+[type='checkbox']+label {
   --s: 0;
   position: relative;
   border: solid 0.625rem #f0f0f0;
@@ -44,7 +44,8 @@ body {
   -webkit-tap-highlight-color: transparent;
   cursor: pointer;
 }
-[type='checkbox'] + label:before, [type='checkbox'] + label:after {
+
+/*[type='checkbox'] + label:before, [type='checkbox'] + label:after {
   position: absolute;
   width: 5rem;
   height: 5rem;
